@@ -5,8 +5,9 @@
 
 body{
     font-family: Arial;
-    background-image: url("../imagens/123.png");
+    /*background-image: url("../imagens/123.png");*/
     background-position: 100% 100%;
+    background: url("../imagens/123.png") no-repeat;
 }
 
 h1.titulo-acecou-php{
