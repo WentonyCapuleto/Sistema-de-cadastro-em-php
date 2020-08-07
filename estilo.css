@@ -5,9 +5,20 @@
 
 body{
     font-family: Arial;
-    color: white;
     background-image: url("../imagens/123.png");
-    background-position: 60% 20%;
+    background-position: 100% 100%;
+}
+
+h1.titulo-acecou-php{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+h2.titulo-acecou-php{
+    font-size: 20px;
+    color: black;
+    text-align: center;
 }
 
 div.cont{
@@ -19,7 +30,21 @@ div.cont{
 input{
 	display: block;
     height: 30px;
-    width: 300px;
+    width: 336px;
+    margin-left: 500px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 16px 19px;
+    background-color: rgba(255,255,255,0.04);
+    color: black;
+    outline: none;
+}
+
+input#input-pesquiza{
+    display: block;
+    height: 50px;
+    width: 370px;
     margin-left: 500px;
     border-radius: 30px;
     border: 1px solid black;
