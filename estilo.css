@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: Arial;
+    /*background-image: url("../imagens/123.png");*/
+    background-position: 100% 100%;
+    background: url("../imagens/123.png") no-repeat;
+}
+
+h1.titulo-acecou-php{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+h2.titulo-acecou-php{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+div.cont{
+	margin: 172px auto 13px auto;
+    width: 28vw;
+    text-align: center;
+}
+
+input{
+	display: block;
+    height: 30px;
+    width: 336px;
+    margin-left: 500px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 16px 19px;
+    background-color: rgba(255,255,255,0.04);
+    color: black;
+    outline: none;
+}
+
+input#input-pesquiza{
+    display: block;
+    height: 50px;
+    width: 370px;
+    margin-left: 500px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 16px 19px;
+    background-color: rgba(255,255,255,0.04);
+    color: black;
+    outline: none;
+}
+
+div.cont input{
+	display: block;
+    height: 30px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 7px 15px;
+    background-color: rgba(255,255,255,0.04);
+    color: black;
+    outline: none;
+}
+
+div.flexWrapper.horizontal{
+	display: flex;
+	flex-direction: row;
+}
+
+div.flexWrapper.horizontal h1{
+	text-align: left
+}
+
+div.cont input[type=submit]{
+	background-color: rgb(35, 85, 109);
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    height: 45px;
+    color: white;
+    font-size: 1.3em;
+}
+
+div.cont input.google{
+	background-color: #dc4036;
+}
+
+div.cont h1{
+	text-align: center;
+	color: black;
+	margin-top: auto;
+}
+
+/*nav{
+	width: 300px;
+	height: 500px;
+	background-color: #dddddd;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+
+ul.menu{
+	list-style-type: none; 
+}
+ul.menu li{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #777;
+	color: white;
+	margin-top: 5px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}*/
+
+a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+div.msg-sucesso{
+	width: 75%;
+	text-align: center;
+    margin: 10px auto;
+    padding: 2%;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+    color: black;
+}
+
+div.msg-erro{
+	width: 75%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    text-align: center;
+    border: 1px solid rgb(156,42,42);
+    color: black;
+}
+
+ul#projetos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#projetos li {
+    float: left;
+    width: 330px;
+    height: 360px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+li#foto01 div {
+	margin-bottom: 170px;
+}
+
+li#foto02 div {
+	margin-bottom: 170px;
+}
+
+li#foto03 div {
+	margin-bottom: 170px;
+}
+
+li#foto04 div {
+	margin-bottom: 170px;
+}
+
+li#foto05 div {
+	margin-bottom: 170px;
+}
+
+li#foto06 div {
+	margin-bottom: 170px;
+}
+
+ul#projetos li#foto01 {
+    background: url('imagens/') no-repeat;
+}
+
+ul#projetos li#foto02 {
+    background: url('imagens/') no-repeat;
+}
+
+ul#projetos li#foto03 {
+    background: url('imagens/') no-repeat;
+}
+
+ul#projetos li#foto04 {
+	background: url('imagens/') no-repeat;
+}
+
+ul#projetos li#foto05 {
+    background: url('imagens/') no-repeat;
+}
+
+ul#projetos li#foto06 {
+    background: url('imagens/') no-repeat;
+}
