@@ -11,6 +11,7 @@ $u = new Usuario;
 	<title>Login</title>
 </head>
 <body>
+	<!--Essa plataforma é livre para pegar a codificação e para sugerir ideias para melhora la -->
 		<div class="cont">
 			<h1>Entrar</h1>
 			<?php
